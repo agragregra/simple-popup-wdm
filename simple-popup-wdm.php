@@ -329,7 +329,7 @@ class Simple_Popup_WDM {
                 continue;
             }
             ?>
-            <div id="simple-popup-<?php echo esc_attr($index); ?>" class="simple-popup" aria-hidden="true">
+            <div id="simple-popup-<?php echo esc_attr($index); ?>" class="simple-popup window-<?php echo esc_attr($popup['trigger_class']); ?>" aria-hidden="true">
                 <div class="simple-popup__overlay" data-popup-id="<?php echo esc_attr($index); ?>"></div>
                 <div class="simple-popup__content">
                     <button class="simple-popup__close" data-popup-id="<?php echo esc_attr($index); ?>">&times;</button>
